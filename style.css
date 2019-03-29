@@ -1,0 +1,155 @@
+*{
+  box-sizing: border-box;
+  padding:0;
+  margin:0;
+}
+nav{
+  width: 100%;
+  height: 100px;
+  background-color: #0d325a;
+}
+.container{
+  width: 85%;
+  margin:0 auto;
+}
+.logo_menu{
+  line-height: 110px;
+  float: left;
+  margin-right: 50px;
+}
+.container ul li{
+  display: inline-block;
+  font-size: 12px;
+  float: left;
+  line-height: 100px;
+  margin-right: 15px;
+}
+.container a{
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+}
+.login{
+  float: right;
+}
+.green{
+  background-color: #7fb802;
+  border-radius: 5px;
+  padding: 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+}
+.border{
+  border: 1px solid #4e8cb6;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+.login ul li:first-child{
+  opacity: 0.5;
+}
+.yellow a:hover{
+  color: #f39c12;
+}
+.blu{
+  background-color: #0d325a;
+}
+.container_blu{
+  width: 85%;
+  margin:0 auto;
+  height: 400px;
+  content: "";
+  display: table;
+  clear: both;
+}
+.col_1{
+  float: left;
+  width: 550px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.col_1 h1{
+  color: white;
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+.col_1 a{
+  padding: 15px;
+}
+.grey{
+  background-color: #f9f9f9;
+  text-align: center;
+}
+.text{
+  padding: 50px 30px;
+}
+.grey .text h3{
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.grey .text p{
+  font-size: 20px;
+  color: #999;
+}
+.row_list{
+  width: 90%;
+  margin: 0 auto;
+}
+.col_3{
+  width: 33.33%;
+  text-align: center;
+  float: left;
+  padding: 20px;
+  margin-bottom: 80px;
+}
+
+.img img{
+  width: 100%;
+  height: 200px;
+  margin-bottom: 30px;
+  padding: 20px;
+}
+.col_3 h2{
+  color: #7fb802;
+  font-size: 27px;
+}
+.col_3 hr{
+  width: 30px;
+  margin: 0 auto;
+  border: 1px solid #bdc3c7;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+hr{
+  width: 95%;
+  margin: 0 auto;
+  border: 0.2px solid #bdc3c7;
+}
+.home_climb{
+  width: 80%;
+  margin: 0 auto;
+  height: 500px;
+  position: relative;
+
+
+  border: 1px solid red;
+}
+.struttura{
+  float: left;
+  top:40%;
+  transform: translateY(-50%);
+  position: absolute;
+  margin-left: 60px;
+
+  border: 1px solid red;
+}
+.test{
+  float: right;
+  width: 40%;
+  font-size: 20px;
+  padding: 30px;
+
+
+  border: 1px solid red;
+}
