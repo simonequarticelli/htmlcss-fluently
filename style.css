@@ -129,27 +129,31 @@ hr{
 .home_climb{
   width: 80%;
   margin: 0 auto;
-  height: 500px;
+  content: "";
+  display: table;
+  clear: both;
   position: relative;
-
-
-  border: 1px solid red;
+  margin-bottom: 100px;
+  margin-top: 50px;
 }
-.struttura{
+.col_2{
+  width: 50%;
   float: left;
-  top:40%;
-  transform: translateY(-50%);
-  position: absolute;
-  margin-left: 60px;
-
-  border: 1px solid red;
 }
-.test{
-  float: right;
+.col_2 >img{
+  margin-top: 20px;
+  margin-left: 60px;
+}
+.col_2-text{
   width: 40%;
-  font-size: 20px;
-  padding: 30px;
-
-
-  border: 1px solid red;
+  position: absolute;
+  top:50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+.col_2-text p{
+  margin: 15px 0px;
+}
+.col_2-text h1{
+  font-size: 30px;
 }
